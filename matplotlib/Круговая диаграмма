@@ -10,4 +10,4 @@ def lemma(n):
     plt.title("Круговая диаграмма")
     plt.show()
 
-lemma(10)
+lemma(20)
