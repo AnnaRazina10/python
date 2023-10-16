@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def lemma():
     n = ["1", "2", "3", "4", "5", "6", "7"]
     c = random.choices(range(150), k=7)
-    plt.lemma(n, c)
+    plt.bar(n, c)
     plt.title("Столбчатая диаграмма")
     plt.ylabel("значения")
     plt.show()
