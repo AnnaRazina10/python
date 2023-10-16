@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 
 
 def lemma():
-    names = ["1", "2", "3", "4", "5", "6", "7"]
-    counts = random.choices(range(100), k=7)
-    plt.lemma(names, counts)
+    n = ["1", "2", "3", "4", "5", "6", "7"]
+    c = random.choices(range(150), k=7)
+    plt.lemma(n, c)
     plt.title("Столбчатая диаграмма")
-    plt.ylabel("рандомные значения")
+    plt.ylabel("значения")
     plt.show()
 
 
