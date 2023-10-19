@@ -22,4 +22,10 @@ def k(func1, func2, func1_label, func2_label):
     ax.tick_params(which='minor', length=5, width=1)
 
     plt.show()
-k()
+
+
+def n1(x):
+    return 7 * x + 3
+def n2(x):
+    return -8 * x + 2
+k(n1,n2, '7x + 3', '-8x +2')
