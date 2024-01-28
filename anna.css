@@ -1,0 +1,35 @@
+hr {
+    border-color: darkgreen;
+  }
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #444;
+  font-weight: bold;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  color: #1000FF;
+}
+
+hr {
+  border-color: green;
+}
+
+p {
+  text-align: left;
+}
+
+table {
+  width: 450px;
+}
+
+ul {
+  text-align: right;
+}
+
+ul {
+      list-style-type: decimal;
+    }
